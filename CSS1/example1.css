@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: "Segoe UI";
 }
 .body {
     margin: 0;
@@ -71,6 +72,7 @@
 }
 .фото_комании>img {
     width: 700px;
+    height: 400px;
 }
 .блок_фото_компнии {
     text-align: center;
