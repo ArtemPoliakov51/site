@@ -1,0 +1,90 @@
+html {
+    background: #9d54d8;
+}
+* {
+    margin: 0;
+    font-family: "Segoe UI";
+}
+.body {
+    margin: 0;
+    padding: 0;
+
+}
+/* верхняя навигационная панель*/
+.site_logo {
+    width: 73px;
+    height: 73px;
+}
+.block_pictures_site_logo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.block_pictures_site_logo>nav>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.block_pictures_site_logo>nav>ul>li {
+    display: flex;
+    padding:0;
+    margin: 0;
+}
+.navigation_panel_block {
+    display: flex;
+    justify-content: space-between;
+    background: darkmagenta;
+}
+.navigation_panel_block>nav>ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation_panel_block>nav>ul>li {
+    display: block;
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: darkmagenta;
+    background: #bfbcbc;
+    color: black;
+}
+
+@media (max-width: 200px) {
+    .navigation_panel_block {
+        flex-direction: column;
+
+    }
+}
+
+/* верхняя навигационная панель*/
+/* главная страница*/
+.company_logo {
+    text-align: center;
+    background: #9d54d8;
+    font-size: 50px;
+}
+.photo_company {
+    justify-content: center;
+    text-align: center;
+    background: #9d54d8;
+    font-size: 24px;
+}
+.photo_company>img {
+    width: 700px;
+    height: 400px;
+}
+.block_photo_company {
+    text-align: center;
+}
+h1 {
+    background: #9d54d8;
+    padding-left: 50px;
+}
+/* главная страница*/
+/* продукция*/
+/* продукция*/
+/*контакты*/

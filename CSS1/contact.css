@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    font-family: "Segoe UI";
+}
+.body {
+    margin: 0;
+    padding: 0;
+}
+.maps {
+    float: right;
+    width: 800px;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 0;
+    background: #9d54d8;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkmagenta;
+
+}
+.block_contacts>p {
+    font-size: 20px;
+}
+.block_contacts {
+    display: inline-block;
+    background: #9d54d8;
+    border-color: darkmagenta;
+    padding-left: 50px;
+}
+html {
+    background: #9d54d8;
+}
+
+.site_logo {
+    width: 73px;
+    height: 73px;
+}
+.block_pictures_site_logo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.block_pictures_site_logo>nav>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.block_pictures_site_logo>nav>ul>li {
+    display: flex;
+    padding:0;
+    margin: 0;
+}
+.navigation_panel_block {
+    display: flex;
+    justify-content: space-between;
+    background: darkmagenta;
+}
+.navigation_panel_block>nav>ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation_panel_block>nav>ul>li {
+    display: block;
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: darkmagenta;
+    background: #bfbcbc;
+    color: black;
+}
+
+@media (max-width: 200px) {
+    .navigation_panel_block {
+        flex-direction: column;
+
+    }
+}
+h1 {
+    padding-left: 50px;
+}
