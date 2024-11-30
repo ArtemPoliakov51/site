@@ -10,10 +10,10 @@ html {
     padding: 0;
 
 }
-/* верхняя навигационная панель*/
+
 .site_logo {
-    width: 73px;
-    height: 73px;
+    width: 70px;
+    height: 70px;
 }
 .block_pictures_site_logo {
     list-style: none;
